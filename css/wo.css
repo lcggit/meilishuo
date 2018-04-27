@@ -1,0 +1,388 @@
+/*
+* @Author: lenovo
+* @Date:   2017-08-25 21:29:19
+* @Last Modified by:   lenovo
+* @Last Modified time: 2017-08-31 15:19:56
+*/
+@import url('base.css');
+body{
+	background: #f3f3f3;
+}
+/* 头部 */
+.header{
+	width: 100%;
+	height: 0.9rem;
+	background: #fff;
+	position: fixed;
+	z-index: 99;
+	top: 0;
+	left: 0;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+#head{
+	width: 100%;
+	height: 0.88rem;
+}
+.shezhi{
+	display: block;
+	width: 0.4rem;
+	height: 0.4rem;
+	background: #fff;
+	margin-left: 0.35rem;
+	text-align: center;
+	line-height: 0.4rem;
+}
+.icon-shezhi{
+	font-size: 0.4rem;
+	color: #818181;
+}
+.meilishuo{
+	height: 0.35rem;
+	background: #fff;
+	font-size: 0.35rem;
+	color: #343434;
+	font-weight: 700;
+}
+.message{
+	display: block;
+/* 	width: 0.4rem; */
+	height: 0.4rem;
+	background: #fff;
+	margin-right: 0.35rem;
+	text-align: center;
+	line-height: 0.36rem;
+	font-size: 0.28rem;
+	color: #818181;
+}
+.icon-asmkticon0129{
+	font-size: 0.5rem;
+	color: #818181;
+}
+/* 头部结束 */
+/* 用户 */
+.user-box{
+	width: 100%;
+	height: 1.98rem;
+	background: #fff;
+	margin-bottom: 0.1rem;
+	display: flex;
+}
+.touxiang{
+	display: block;
+	width: 1.35rem;
+	height: 1.35rem;
+	background: pink;
+	border-radius: 50%;
+	margin-top: 0.29rem;
+	margin-left: 0.2rem;
+}
+.touxiang img{
+	display: block;
+	width: 1.35rem;
+	height: 1.35rem;
+	border-radius: 50%;
+}
+.user-word{
+	height: 1.09rem;
+	background: #fff;
+	margin-top: 0.37rem;
+	margin-left: 0.21rem;
+}
+.user-top{
+	height: 0.36rem;
+	display: flex;
+	justify-content: space-between;
+}
+.yonghuming{
+	height: 0.36rem;
+	font-size: 0.36rem;
+	color: #000;
+	font-weight: 700;
+}
+.huangguan{
+	display: block;
+	width: 0.4rem;
+	height: 0.36rem;
+	border-radius: 50%;
+	background: #fdfbe4;
+	margin-left: 0.05rem;
+	margin-top: 0.05rem;
+}
+.icon-huangguanlingxing{
+	font-size: 0.26rem;
+	color: #e7c78e;
+	text-align: center;
+	line-height: 0.3rem;
+}
+.word{
+	height: 0.26rem;
+	text-align: center;
+	line-height: 0.26rem;
+	font-size: 0.26rem;
+	margin-top: 0.48rem;
+	color: #4b4b4b;
+}
+.user-dingzi{
+	display: block;
+	width: 2.05rem;
+	height: 0.58rem;
+	background: #fff;
+	box-sizing: border-box;
+	border: 2px solid #444;
+	border-radius: 0.23rem;
+	margin-top: 0.99rem;
+	margin-left: 0.13rem;
+	text-align: center;
+	line-height: 0.58rem;
+	font-size: 0.26rem;
+	color: #4b4b4b;
+	margin-left: 0.28rem;
+}
+/* 用户结束 */
+/* 服务 */
+.fuwu-box{
+	width: 100%;
+	height: 1.44rem;
+	background: #fff;
+	margin-bottom: 0.1rem;
+}
+.fuwu-box ul{
+	width: 100%;
+	height: 1.44rem;
+	background: #fff;
+	display: flex;
+	justify-content: space-between;
+}
+.fuwu{
+	width: 20%;
+	height: 1.44rem;
+	background: #fff;
+}
+.fuwu-tubiao{
+	height: 0.9rem;
+	margin: 0 auto;
+	padding-top: 0.19rem;
+	background: #fff;
+	text-align: center;
+	line-height: 0.6rem;
+} 
+.icon-fukuan{
+	font-size: 0.8rem;
+}
+.icon-feiji{
+	font-size: 0.8rem;
+}
+.icon-daipingjia{
+	font-size: 0.8rem;
+}
+.icon-tuihuanhuo{
+	font-size: 0.8rem;
+}
+.icon-quanbudingdan{
+	font-size: 0.8rem;
+	color: #000;
+}
+.fuwu-word{
+	height: 0.26rem;
+	margin-top: 0.18rem;
+	text-align: center;
+	line-height: 0.26rem;
+	background: #fff;
+	font-size: 0.26rem;
+	color: #000;
+} 
+/* 服务结束 */
+/* 项目 */
+.item-box{
+	width: 100%;
+	height: 3.86rem;
+	background: #fff;
+	margin-bottom: 0.1rem;
+	display: flex;
+	align-items: center;
+}
+.item-box1{
+	width: 6.83rem;
+	height: 3.23rem;
+	background: #fff;
+	margin: 0 auto;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-content: space-between;
+}
+.item{
+	display: block;
+	width: 1.46rem;
+	height: 1.46rem;
+	background: #c8f1e9;
+}
+.item:nth-child(2){
+	background: #d4e0fa;
+}
+.item:nth-child(3){
+	background: #faeb83;
+}
+.item:nth-child(4){
+	background: #bbefea;
+}
+.item:nth-child(5){
+	background: #fae3eb;
+}
+.item:nth-child(6){
+	background: #eae6ff;
+}
+.item:nth-child(7){
+	background: #ffdfe2;
+}
+.item:nth-child(8){
+	background: #ffdcc2;
+}
+.item-icon{
+	height: 0.92rem;
+	margin: 0 auto;
+	text-align: center;
+	margin-bottom: 0.14rem;
+	line-height: 0.92rem;
+}
+.icon-qianbao{
+	font-size: 0.68rem;
+	color: #696365;
+}
+.icon-youhuiquan{
+	font-size: 0.68rem;
+	color: #696365;
+}
+.icon-huiyuan{
+	font-size: 0.68rem;
+	color: #696365;
+}
+.icon-icon-dianhua{
+	font-size: 0.68rem;
+	color: #696365;
+}
+.icon-icon{
+	font-size: 0.68rem;
+	color: #696365;
+}
+.icon-zuji{
+	font-size: 0.68rem;
+	color: #696365;
+}
+.icon-xihuan{
+	font-size: 0.68rem;
+	color: #696365;
+}
+.icon-qian{
+	font-size: 0.68rem;
+	color: #696365;
+}
+.item-word{
+	height: 0.24rem;
+	font-size: 0.24rem;
+	text-align: center;
+	color: #000;
+}
+/* 项目结束 */
+/* 分享 */
+.fenxiang-box{
+	display: block;
+	width: 100%;
+	height: 1.16rem;
+	background: #fff;
+	margin-bottom: 0.1rem;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.fenxiang-left{
+	height: 0.6rem;
+	display: flex;
+	align-items: center;
+	margin-left: 0.3rem;
+}
+.fenxiang-left img{
+	width: 0.6rem;
+	height: 0.6rem;
+}
+.fenxiang-word{
+	height: 0.26rem;
+	font-size: 0.26rem;
+	margin: 0.1rem;
+	color: #000;
+}
+.fenxiang-right{
+	display: block;
+	height: 0.22rem;
+	font-size: 0.33rem;
+	color: #a7a7a7;
+	margin-right: 0.3rem;
+}
+/* 分享结束 */
+/* foot */
+.footer{
+	width: 100%;
+	height: 1.01rem;
+	background: #fff;
+	position: fixed;
+	z-index : 99;
+	left: 0;
+	bottom: 0;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;	
+}
+#foot{
+	width: 100%;
+	height: 1.01rem;
+}
+.bankuai{
+/* 	width: 0.62rem; */
+	height: 0.74rem;
+	background: #fff;
+}
+.bankuai-icon{
+	width: 0.43rem;
+	height: 0.38rem;
+	background: #fff;
+	margin: 0.04rem auto 0.1rem;
+	text-align: center;
+	font-size: 0.43rem;
+	line-height: 0.38rem;
+}
+.icon-shouye{
+	font-size: 0.43rem;
+	color: #737373;
+}
+.icon-leimupinleifenleileibie{
+	font-size: 0.43rem;
+	color: #737373;
+}
+.icon-bao{
+	font-size: 0.43rem;
+	color: #737373;
+}
+.icon-5{
+	font-size: 0.43rem;
+	color: #fb296a;
+}
+.bankuai-word{
+/* 	width: 100%; */
+	height: 0.21rem;
+	font-size: 0.2rem;
+	line-height: 0.21rem;
+	text-align: center;
+	background: #fff;
+	color: #737373;
+}
+.bankuai-word1{
+	height: 0.21rem;
+	font-size: 0.2rem;
+	line-height: 0.21rem;
+	text-align: center;
+	background: #fff;
+	color: #fb296a;
+}
+/* foot结束 */

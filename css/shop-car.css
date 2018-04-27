@@ -1,0 +1,394 @@
+/*
+* @Author: lenovo
+* @Date:   2017-08-25 21:29:19
+* @Last Modified by:   lenovo
+* @Last Modified time: 2018-01-26 09:56:23
+*/
+@import url('base.css');
+body{
+	background: #f3f3f3;
+}
+/* 头部 */
+.header{
+	width: 100%;
+	height: 0.9rem;
+	background: #fff;
+	position: fixed;
+	z-index: 99;
+	top: 0;
+	left: 0;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+#head{
+	width: 100%;
+	height: 0.88rem;
+}
+.fangdajing{
+	display: block;
+	width: 0.4rem;
+	height: 0.4rem;
+	background: #fff;
+	margin-left: 0.35rem;
+	text-align: center;
+	line-height: 0.4rem;
+}
+.meilishuo{
+	height: 0.35rem;
+	background: #fff;
+	font-size: 0.35rem;
+	color: #343434;
+	font-weight: 700;
+}
+.message{
+	display: block;
+/* 	width: 0.4rem; */
+	height: 0.4rem;
+	background: #fff;
+	margin-right: 0.35rem;
+	text-align: center;
+	line-height: 0.36rem;
+	font-size: 0.28rem;
+	color: #818181;
+}
+/* 头部结束 */
+/* 美丽优选 */
+.youxuan-box{
+	width: 100%;
+	height: 1.04rem;
+	background: #fff;
+	margin-top: 0.1rem;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.youxuan-box-left{
+	height: 0.36rem;
+	background: #fff;
+	margin-left: 0.3rem;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.duigou{
+	width: 0.36rem;
+	height: 0.36rem;
+	background: #fff;
+	margin-right: 0.22rem;
+}
+.icon-duigou{
+	font-size: 0.46rem;
+	color: #ff6298;
+}
+.youxuan-word{
+	height: 0.36rem;
+	background: #fff;
+	text-align: center;
+	line-height: 0.36rem;
+	color: #373737;
+	font-size: 0.22rem;
+	font-weight: 700;
+}
+.youxuan-box-right{
+	height: 0.36rem;
+	background: #fff;
+	margin-right: 0.3rem;
+	text-align: center;
+	line-height: 0.36rem;
+	color: #ff6298;
+	font-size: 0.22rem;
+}
+/* 美丽优选结束 */
+/* 购物车 */
+.shop-car{
+	width: 100%;
+	height: 3.92rem;
+	background: #fff;
+	margin-top: 0.02rem;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.shop-car-duigou{
+	width: 0.32rem;
+	height: 0.32rem;
+	background: #fff;
+	margin-left: 0.2rem;
+}
+.shop-car-right{
+	width: 6.46rem;
+	height: 3.1rem;
+	background: #fff;
+	margin-right: 0.32rem;
+}
+.shop-car-right-top{
+	display: block;
+	width: 6.46rem;
+	height: 2.54rem;
+	background: #fff;
+	margin-bottom: 0.33rem;
+	display: flex;
+	justify-content: space-between;
+}
+.shop-car-img{
+	display: block;
+	width: 1.7rem;
+	height: 2.54rem;
+	background: #fff;
+}
+.shop-car-img img{
+	display: block;
+	width: 1.7rem;
+	height: 2.54rem;
+}
+.shop-car-word{
+    width: 4.54rem;
+	height: 2.24rem;
+	background: #fff;
+	font-size: 0.28rem;
+	font-weight: 700;
+	color: #000;
+}
+.shop-car-word-title{
+	display: block;
+	width: 4.54rem;
+	height: 0.64rem;
+	background: #fff;
+	margin-bottom: 0.23rem;
+	color: #000;
+	font-weight: 700;
+}
+.guige{
+	width: 100%;
+	height: 0.23rem;
+	background: #fff;
+	margin-bottom: 0.81rem;
+	display: flex;
+}
+.guige1{
+	height: 0.23rem;
+	background: #fff;
+	margin-right: 0.29rem;
+	color: #a9a9a9;
+	font-size: 0.23rem;
+}
+.shop-car-right-bottom{
+	height: 0.23rem;
+	background: #fff;
+	font-size: 0.23rem;
+	line-height: 0.23rem;
+	color: #ff6298;
+	font-weight: 700;
+}
+.jiage{
+	width: 100%;
+	height: 0.23rem;
+	background: #fff;
+	display: flex;
+	justify-content: space-between;
+}
+.jiaqian{
+	height: 0.23rem;
+	background: #fff;
+	color: #000;
+	font-size: 0.23rem;
+}
+/* 购物车结束 */
+/* 猜你喜欢 */
+.like-shop{
+	width: 100%;
+	height: 6.98rem;
+	background: #fff;
+	margin-top: 0.1rem;
+	border-bottom: 1px solid #bdbdbd;
+}
+.like-title{
+	width: 100%;
+	height: 0.9rem;
+	background: #fff;
+	padding-left: 0.2rem;
+	font-size: 0.26rem;
+	line-height: 0.9rem;
+	color: #373737;
+	font-size: 700;
+}
+.like-shop-box{
+	width: 7.1rem;
+	height: 6.08rem;
+	background: #fff;
+	margin: 0 auto;
+	display: flex;
+	justify-content: space-between;
+}
+.like-shop1{
+	width: 3.45rem;
+	height: 6.08rem;
+	background: #fff;
+	display: block;
+}
+.like-shangpin{
+	display: block;
+	width: 3.45rem;
+	height: 5.17rem;
+}
+.like-shangpin-title{
+	width: 100%;
+	height: 0.28rem;
+	margin-top: 0.15rem;
+	background: #fff;
+	display: flex;
+}
+.yx{
+	width: 0.61rem;
+	height: 0.28rem;
+	margin-right: 0.13rem;
+	font-size: 0.21rem;
+	background: #ff6298;
+	color: #fff;
+	text-align: center;
+	line-height: 0.28rem;
+}
+.biaoti{
+	height: 0.28rem;
+	background: #fff;
+	font-size: 0.23rem;
+}
+/* 猜你喜欢结束 */
+/* 全选 */
+.quanxuan-box{
+	width: 100%;
+	height: 0.98rem;
+	background: #fff;
+	border-bottom: 1px solid #bdbdbd;
+	display: flex;
+	align-items: center;
+}
+.quanxuan{
+	display: block;
+	height: 0.36rem;
+	background: #fff;
+	float: left;
+	font-size: 0.25rem;
+	display: flex;
+	align-items: center;
+	margin-left: 0.3rem;
+}
+.quanxuan-duigou{
+	width: 0.36rem;
+	height: 0.36rem;
+	background: #fff;
+}
+.quanxuan-word{
+	display: block;
+	height: 0.25rem;
+	background: #fff;
+	font-size: 0.25rem;
+	margin-left: 0.16rem;
+	font-weight: 700;
+	color: #6a6a6a;
+}
+.heji{
+	width: 2.18rem;
+	height: 0.56rem;
+	background: #fff;
+	float: right;
+	margin-left: 1.55rem;
+}
+.heji-jiage{
+	height: 0.25rem;
+	background: #fff;
+	font-size: 0.25rem;
+	text-align: right;
+	line-height: 0.25rem;
+	margin-bottom: 0.08rem;
+	color: #ff6298;
+}
+.heji-fuwu{
+	height: 0.23rem;
+	background: #fff;
+	font-size: 0.23rem;
+	text-align: right;
+	line-height: 0.23rem;
+	color: #888888;
+}
+.jiesuan{
+	display: block;
+	width: 2.07rem;
+	height: 0.98rem;
+	background: #ff6298;
+	margin-left: 0.34rem;
+	float: right;
+	font-size: 0.33rem;
+	text-align: center;
+	line-height: 0.98rem;
+	
+	color: #fff;
+	border-left: 1px solid #c7839a;
+}
+/* 全选结束 */
+/* foot */
+.footer{
+	width: 100%;
+	height: 1.01rem;
+	background: #fff;
+	position: fixed;
+	z-index : 99;
+	left: 0;
+	bottom: 0;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;	
+}
+#foot{
+	width: 100%;
+	height: 1.01rem;
+}
+.bankuai{
+/* 	width: 0.62rem; */
+	height: 0.74rem;
+	background: #fff;
+}
+.bankuai-icon{
+	width: 0.43rem;
+	height: 0.38rem;
+	background: #fff;
+	margin: 0.04rem auto 0.1rem;
+	text-align: center;
+	font-size: 0.43rem;
+	line-height: 0.38rem;
+}
+.icon-shouye{
+	font-size: 0.43rem;
+	color: #737373;
+}
+.icon-leimupinleifenleileibie{
+	font-size: 0.43rem;
+	color: #737373;
+}
+.icon-bao{
+	font-size: 0.43rem;
+	color: #fb296a;
+}
+.icon-5{
+	font-size: 0.43rem;
+	color: #737373;
+}
+.bankuai-word{
+/* 	width: 100%; */
+	height: 0.21rem;
+	font-size: 0.2rem;
+	line-height: 0.21rem;
+	text-align: center;
+	background: #fff;
+	color: #737373;
+}
+.bankuai-word1{
+	height: 0.21rem;
+	font-size: 0.2rem;
+	line-height: 0.21rem;
+	text-align: center;
+	background: #fff;
+	color: #fb296a;
+}
+/* foot结束 */

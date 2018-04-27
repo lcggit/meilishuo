@@ -1,0 +1,266 @@
+/*
+* @Author: lenovo
+* @Date:   2017-08-24 09:54:49
+* @Last Modified by:   lenovo
+* @Last Modified time: 2017-08-28 09:15:04
+*/
+@import url('base.css');
+/* 头部 */
+body{
+	background: #f3f3f3;
+}
+.header{
+	width: 100%;
+	height: 0.9rem;
+	background: #fff;
+	position: relative;
+	position: fixed;
+	z-index: 99;
+	top: 0;
+	left: 0;
+	display: flex;
+	align-items: center;
+	border-bottom: 1px solid #cecece;
+
+}
+#head{
+	width: 100%;
+	height: 0.88rem;
+}
+.zuo{
+	display: block;
+	width: 0.2rem;
+	height: 0.38rem;
+	background: #fff;
+	margin-left: 0.35rem;
+	margin-right: 2.38rem;
+}
+.icon-zuo{
+	font-size: 0.36rem;
+	color: #343434;
+}
+.cha{
+	display: block;
+	width: 0.38rem;
+	height: 0.38rem;
+	background: #fff;
+	position: absolute;
+	left: 1.19rem;
+	top: 0.27rem;
+}
+.icon-icon1{
+	font-size: 0.38rem;
+	color: #343434;
+}
+.system{
+	height: 0.35rem;
+	background: #fff;
+	font-size: 0.35rem;
+	color: #343434;
+	font-weight: 700;
+}
+/* 头部结束 */
+/* 导航 */
+.nav-box{
+	width: 100%;
+	height: 0.9rem;
+	background: #fff;
+	display: flex;
+	justify-content: space-around;
+	position: relative;
+}
+.nav{
+	display: block;
+	height: 0.9rem;
+	background: #fff;
+	font-size: 0.26rem;
+	line-height: 0.9rem;
+	color: #656565;
+}
+.nav:nth-child(3){
+	color: #000;
+}
+.nav .xian{
+	width: 0.5rem;
+	height: 0.04rem;
+	background: #000;
+	position: absolute;
+	bottom: 0;
+	right: 1rem;
+}
+/* 导航结束 */
+/* 超值拼团 */
+.group-box{
+	width: 100%;
+	height: 26.79rem;
+	background: #fff;
+	margin-top: 0.2rem;
+}
+.group-title{
+	width: 100%;
+	height: 0.71rem;
+	background: #fff;
+	font-size: 0.28rem;
+	padding-left: 0.22rem;
+	line-height: 0.88rem;
+}
+.group-shop-box{
+	width: 100%;
+	background: #fff;
+}
+.shop-box{
+	width: 7.08rem;
+	height: 2.6rem;
+	background: #fff;
+	margin-left: 0.22rem;
+	box-sizing: border-box;
+	border-bottom: 0.02rem solid #f6f6f6;
+	padding-top: 0.3rem;
+}
+.shop{
+	display: block;
+	width: 6.98rem;
+	height: 2.01rem;
+	background: #fff;
+	display: flex;
+	justify-content: space-between;
+}
+.shop-left{
+	width: 1.98rem;
+	height: 2.01rem;
+	background: #fff;
+}
+.shop-left img{
+	display: block;
+	width: 1.98rem;
+	height: 2.01rem;
+}
+.shop-right{
+	width: 4.7rem;
+	height: 2.01rem;
+	background: #fff;
+	position: relative;
+}
+.shop-title{
+	font-size: 0.25rem;
+	font-weight: 700;
+	margin-top: 0.06rem;
+	color: #000;
+}
+.jiaqian{
+	font-size: 0.29rem;
+	font-weight: 700;
+	margin-top: 0.42rem;
+	color: #fb296a;
+	margin-left: 0.08rem;
+}
+.jiaqian s{
+	font-size: 0.15rem;
+	color: #707070;
+	margin-left: 0.16rem;
+}
+.tuan{
+	font-size: 0.22rem;
+	margin-top: 0.28rem;
+	color: #6f6f6f;
+}
+.kaituan{
+	width: 1.81rem;
+	height: 0.6rem;
+	border-radius: 0.26rem;
+	background: #fb296a;
+	color: #fff;
+	font-size: 0.25rem;
+	text-align: center;
+	line-height: 0.6rem;
+	position: absolute;
+	right: 0;
+	bottom: 0;
+}
+/* 超值拼团结束 */
+/* 更多 */
+.more-box{
+	width: 100%;
+	height: 1.21rem;
+	background: #fff;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.more{
+	width: 4.5rem;
+	height: 0.6rem;
+	background: #fb296a;
+	/* margin: 0 auto; */
+	border-radius: 0.3rem;
+	text-align: center;
+	line-height: 0.6rem;
+	font-size: 0.28rem;
+	color: #fff;
+}
+/* 更多结束 */
+/* foot */
+.footer{
+	width: 100%;
+	height: 1.01rem;
+	background: #fff;
+	position: fixed;
+	z-index : 99;
+	left: 0;
+	bottom: 0;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;	
+}
+#foot{
+	width: 100%;
+	height: 1.33rem;
+}
+.bankuai{
+/* 	width: 0.62rem; */
+	height: 0.74rem;
+	background: #fff;
+}
+.bankuai-icon{
+	width: 0.43rem;
+	height: 0.38rem;
+	background: #fff;
+	margin: 0.04rem auto 0.1rem;
+	text-align: center;
+	font-size: 0.43rem;
+	line-height: 0.38rem;
+}
+.icon-qian{
+	font-size: 0.43rem;
+	color: #737373;
+}
+.icon-99{
+	font-size: 0.43rem;
+	color: #737373;
+}
+.icon-lianyiqun{
+	font-size: 0.43rem;
+	color: #737373;
+}
+.icon-wo{
+	font-size: 0.43rem;
+	color: #fb296a;
+}
+.bankuai-word{
+/* 	width: 100%; */
+	height: 0.21rem;
+	font-size: 0.2rem;
+	line-height: 0.21rem;
+	text-align: center;
+	background: #fff;
+	color: #737373;
+}
+.bankuai-word1{
+	height: 0.21rem;
+	font-size: 0.2rem;
+	line-height: 0.21rem;
+	text-align: center;
+	background: #fff;
+	color: #fb296a;
+}
+/* foot结束 */

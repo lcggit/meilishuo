@@ -1,0 +1,153 @@
+/*
+* @Author: lenovo
+* @Date:   2017-08-25 19:18:26
+* @Last Modified by:   lenovo
+* @Last Modified time: 2017-11-22 08:51:35
+*/
+@import url('base.css');
+/* 头部 */
+body{
+	background: #fff;
+}
+.header{
+	width: 100%;
+	height: 0.9rem;
+	background: #fff;
+	position: fixed;
+	z-index: 99;
+	top: 0;
+	left: 0;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	border-bottom: 1px solid #cecece;
+}
+#head{
+	width: 100%;
+	height: 0.88rem;
+}
+.zuo{
+	display: block;
+	width: 0.2rem;
+	height: 0.37rem;
+	background: #fff;
+	margin-left: 0.35rem;
+	/* margin-right: 2.38rem; */
+}
+.icon-zuo{
+	font-size: 0.36rem;
+	color: #343434;
+}
+.meilishuo{
+	height: 0.35rem;
+	background: #fff;
+	font-size: 0.35rem;
+	color: #343434;
+	font-weight: 700;
+	margin-left: 0.5rem;
+}
+.message{
+	display: block;
+	/* width: 0.4rem; */
+	height: 0.4rem;
+	background: #fff;
+	margin-right: 0.3rem;
+	text-align: center;
+	line-height: 0.36rem;
+	color: #343434;
+	font-size: 0.3rem;
+}
+/* 头部结束 */
+/* 主要内容 */
+.main{
+	padding: 1rem 0.3rem 0;
+	box-sizing: border-box;
+}
+.wenzi{
+	font-size: 0.28rem;
+    text-align: center;
+    line-height: 0.28rem;
+    color: #666;
+    margin-bottom: 0.4rem;
+}
+.user{
+	width: 100%;
+	height:0.63rem;
+	margin-bottom: 0.49rem;
+	padding-bottom: 0.15rem;
+	border: none;
+	border-bottom: 1px solid #ededed;
+	color: #ededed;
+	text-align: center;
+	line-height: 0.63rem;
+	font-size: 0.48rem;
+	display: block;
+}
+.load{
+	display: block;
+	width: 100%;
+	height: 1rem;
+	background: #ff1877;
+	border-radius: 3px;
+	font-size: 0.36rem;
+	text-align: center;
+	line-height: 1rem;
+	color: #fff;
+	border: none;
+}
+.mz{
+	margin-top: 0.3rem;
+}
+.mz::after{
+	content: "";
+	display: block;
+	clear: both;
+}
+.mz a{
+	display: block;
+	font-size: 0.28rem;
+}
+.mianmi{
+	float: left;
+	color: #999;
+	display: block;
+	font-size: 0.28rem;
+}
+.zhuce{
+	float: right;
+	color: #ff5777;
+}
+.or-box{
+    width: 100%;
+    margin-top: 0.08rem;
+    padding: 0.5rem 0.3rem 0.6rem;
+}
+.xian{
+	display: inline-block;
+    width: 2.25rem;
+    height: 0.2rem;
+    border-bottom: 0.01rem solid #f1f1f1;
+    box-sizing: border-box;
+}
+.or{
+	display: inline-block;
+    text-align: center;
+    width: 0.8rem;
+    font-size: 0.2rem;
+    height: 0.2rem;
+    line-height: 0.2rem;
+    color: #f1f1f1;
+    box-sizing: border-box;
+}
+.qq{
+	width: 100%;
+}
+.qq a{
+	display: block;
+	background: url('../img/qq210x210.png') no-repeat center;
+	background-size: 100%;
+    width: 2.1rem;
+    margin: 0px auto;
+    height: 2.1rem;
+}
+/* 主要内容结束 */
